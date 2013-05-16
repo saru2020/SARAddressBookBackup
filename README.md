@@ -8,8 +8,12 @@ SARAddressBookBackup
 	(i) Copy/Include the "SARAddressBookBackup.h" & "SARAddressBookBackup.m" into your project.
 	(ii) Copy/Include  "MessageUI.framework" & "AddressBook.framework" into your project.
 	That's it. Your done.
+
 <br/>
-	Also, the Example project shows on how to email the .vcf file.
+
+	Also, the Example project illustrates on how to email the .vcf file.
+
+<br/>
 
 <b>Usage :</b>
 	
