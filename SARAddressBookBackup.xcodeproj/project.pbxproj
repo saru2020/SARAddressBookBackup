@@ -11,17 +11,18 @@
 		EB90F253174565370067049E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB90F252174565370067049E /* Foundation.framework */; };
 		EB90F255174565370067049E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB90F254174565370067049E /* CoreGraphics.framework */; };
 		EB90F25B174565380067049E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB90F259174565380067049E /* InfoPlist.strings */; };
-		EB90F25D174565390067049E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90F25C174565390067049E /* main.m */; };
 		EB90F261174565390067049E /* SARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90F260174565390067049E /* SARAppDelegate.m */; };
-		EB90F263174565390067049E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB90F262174565390067049E /* Default.png */; };
-		EB90F265174565390067049E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB90F264174565390067049E /* Default@2x.png */; };
-		EB90F267174565390067049E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB90F266174565390067049E /* Default-568h@2x.png */; };
 		EB90F26A174565390067049E /* SARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90F269174565390067049E /* SARViewController.m */; };
 		EB90F26D174565390067049E /* SARViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB90F26B174565390067049E /* SARViewController_iPhone.xib */; };
 		EB90F270174565390067049E /* SARViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB90F26E174565390067049E /* SARViewController_iPad.xib */; };
 		EB90F278174565CB0067049E /* SARAddressBookBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = EB90F277174565CB0067049E /* SARAddressBookBackup.m */; };
 		EB90F27A174566870067049E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB90F279174566870067049E /* AddressBook.framework */; };
 		EB90F27C1745668B0067049E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB90F27B1745668B0067049E /* MessageUI.framework */; };
+		EBFC890A17457551000D25C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFC890417457551000D25C6 /* Default-568h@2x.png */; };
+		EBFC890B17457551000D25C6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFC890517457551000D25C6 /* Default.png */; };
+		EBFC890C17457551000D25C6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFC890617457551000D25C6 /* Default@2x.png */; };
+		EBFC890D17457551000D25C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFC890717457551000D25C6 /* main.m */; };
+		EBFC890E17457551000D25C6 /* SARAddressBookBackup-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBFC890817457551000D25C6 /* SARAddressBookBackup-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,15 +30,9 @@
 		EB90F250174565370067049E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB90F252174565370067049E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB90F254174565370067049E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EB90F258174565370067049E /* SARAddressBookBackup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SARAddressBookBackup-Info.plist"; sourceTree = "<group>"; };
 		EB90F25A174565380067049E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EB90F25C174565390067049E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB90F25E174565390067049E /* SARAddressBookBackup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SARAddressBookBackup-Prefix.pch"; sourceTree = "<group>"; };
 		EB90F25F174565390067049E /* SARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARAppDelegate.h; sourceTree = "<group>"; };
 		EB90F260174565390067049E /* SARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARAppDelegate.m; sourceTree = "<group>"; };
-		EB90F262174565390067049E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		EB90F264174565390067049E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		EB90F266174565390067049E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EB90F268174565390067049E /* SARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARViewController.h; sourceTree = "<group>"; };
 		EB90F269174565390067049E /* SARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARViewController.m; sourceTree = "<group>"; };
 		EB90F26C174565390067049E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SARViewController_iPhone.xib; sourceTree = "<group>"; };
@@ -46,6 +41,12 @@
 		EB90F277174565CB0067049E /* SARAddressBookBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARAddressBookBackup.m; sourceTree = "<group>"; };
 		EB90F279174566870067049E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		EB90F27B1745668B0067049E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EBFC890417457551000D25C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EBFC890517457551000D25C6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EBFC890617457551000D25C6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EBFC890717457551000D25C6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBFC890817457551000D25C6 /* SARAddressBookBackup-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SARAddressBookBackup-Info.plist"; sourceTree = "<group>"; };
+		EBFC890917457551000D25C6 /* SARAddressBookBackup-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SARAddressBookBackup-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +113,13 @@
 		EB90F257174565370067049E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB90F258174565370067049E /* SARAddressBookBackup-Info.plist */,
+				EBFC890417457551000D25C6 /* Default-568h@2x.png */,
+				EBFC890517457551000D25C6 /* Default.png */,
+				EBFC890617457551000D25C6 /* Default@2x.png */,
+				EBFC890717457551000D25C6 /* main.m */,
+				EBFC890817457551000D25C6 /* SARAddressBookBackup-Info.plist */,
+				EBFC890917457551000D25C6 /* SARAddressBookBackup-Prefix.pch */,
 				EB90F259174565380067049E /* InfoPlist.strings */,
-				EB90F25C174565390067049E /* main.m */,
-				EB90F25E174565390067049E /* SARAddressBookBackup-Prefix.pch */,
-				EB90F262174565390067049E /* Default.png */,
-				EB90F264174565390067049E /* Default@2x.png */,
-				EB90F266174565390067049E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -176,11 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB90F25B174565380067049E /* InfoPlist.strings in Resources */,
-				EB90F263174565390067049E /* Default.png in Resources */,
-				EB90F265174565390067049E /* Default@2x.png in Resources */,
-				EB90F267174565390067049E /* Default-568h@2x.png in Resources */,
 				EB90F26D174565390067049E /* SARViewController_iPhone.xib in Resources */,
 				EB90F270174565390067049E /* SARViewController_iPad.xib in Resources */,
+				EBFC890A17457551000D25C6 /* Default-568h@2x.png in Resources */,
+				EBFC890B17457551000D25C6 /* Default.png in Resources */,
+				EBFC890C17457551000D25C6 /* Default@2x.png in Resources */,
+				EBFC890E17457551000D25C6 /* SARAddressBookBackup-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,10 +193,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB90F25D174565390067049E /* main.m in Sources */,
 				EB90F261174565390067049E /* SARAppDelegate.m in Sources */,
 				EB90F26A174565390067049E /* SARViewController.m in Sources */,
 				EB90F278174565CB0067049E /* SARAddressBookBackup.m in Sources */,
+				EBFC890D17457551000D25C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
