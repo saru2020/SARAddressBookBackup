@@ -14,7 +14,8 @@ SARAddressBookBackup
 	Also, the Example project shows on how to email the .vcf file.
 
 <b>Usage :</b>
-	    addressBook = [[SARAddressBookBackup alloc]init];
+	
+	addressBook = [[SARAddressBookBackup alloc]init];
     addressBook.backupPath = [self applicationDocumentsDirectory];//(Optional). If not given, then the backup
     // file is stored under the Documents directory.
     __weak SARAddressBookBackup *addressBook_weak = addressBook;
