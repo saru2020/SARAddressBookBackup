@@ -8,14 +8,12 @@ SARAddressBookBackup
 	(i) Copy/Include the "SARAddressBookBackup.h" & "SARAddressBookBackup.m" into your project.
 	(ii) Copy/Include  "MessageUI.framework" & "AddressBook.framework" into your project.
 	That's it. Your done.
-
 <br/>
-
 	Also, the Example project shows on how to email the .vcf file.
 
 <b>Usage :</b>
 	
-	addressBook = [[SARAddressBookBackup alloc]init];
+	SARAddressBookBackup *addressBook = [[SARAddressBookBackup alloc]init];
     addressBook.backupPath = [self applicationDocumentsDirectory];//(Optional). If not given, then the backup
     // file is stored under the Documents directory.
     __weak SARAddressBookBackup *addressBook_weak = addressBook;
