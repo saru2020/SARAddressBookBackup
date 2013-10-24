@@ -15,6 +15,17 @@ SARAddressBookBackup
 
 <br/>
 
+<b>Installation :</b>
+Add the following to your CocoaPods Podfile
+
+	pod 'SARAddressBookBackup'
+
+or clone as a git submodule,
+
+or just copy SARAddressBookBackup.h and .m into your project.
+
+<br/>
+
 <b>Usage :</b>
 	
 	SARAddressBookBackup *addressBook = [[SARAddressBookBackup alloc]init];
