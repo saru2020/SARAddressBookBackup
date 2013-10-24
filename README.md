@@ -16,7 +16,7 @@ SARAddressBookBackup
 <br/>
 
 <b>Installation :</b><br/>
-Add the following to your CocoaPods Podfile
+Add the following to your <a href="http://cocoapods.org/">CocoaPods</a> Podfile
 
 	pod 'SARAddressBookBackup'
 
